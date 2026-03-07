@@ -19,4 +19,6 @@ prefer not to use var cause of issue in block scope and functional scope
 */
 console.table([accountEmail,accountId,accountPassword,accountCity,accountSum]);
 
+// creates a table for the desired information
+
 
