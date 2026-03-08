@@ -2,10 +2,22 @@
 //in pop last element of the array got deleted and in push element is added to the last of the array
 
 //similarly in shift we delete elements from the starting of the array and using unshift we add element to the stat of the array
-let start = ['january','july','march','august'];
-start.shift();
-start.shift();
-start.unshift('july','june');
+// let start = ['january','july','march','august'];
+// start.shift();
+// start.shift();
+// start.unshift('july','june');
 
-console.log(start.length);
-console.log(start);
+// console.log(start.length);
+// console.log(start);
+//----------------------------------------------------------
+
+// let start = ['january','july','march','august'];
+// let final = start.splice(0,2,'july','june');
+// console.log(start);
+//--------------------------------------------------------------
+
+let sub = ['c','c++','html','javascript','python','java','c#','sql'];
+console.log(sub.indexOf('javascript'));
+sub.reverse();
+console.log(sub);
+console.log(sub.indexOf('javascript'));
