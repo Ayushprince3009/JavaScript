@@ -1,10 +1,10 @@
-          DAY #3 STARTS NOW
+//          DAY #3 STARTS NOW
 
 let num = 34.43452535;
 // num.toFixed()   esme jo number jayegaa utna decimal ke baad digit ye lega aur koi float value rhega to usme se
-let c = num.toFixed(2);
-console.log(c);
-console.log(typeof (c));
+let co = num.toFixed(2);
+console.log(co);
+console.log(typeof (co));
 
 let str = "ILOVEMYCOUNTRY";    //agar o ka krte to first occurance deta hai
 let c = str.indexOf("C");
