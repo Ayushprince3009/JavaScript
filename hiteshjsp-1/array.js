@@ -1,30 +1,54 @@
-     //array====================
-const hero = ["aysh","deepak","ashutosh","abhi"];
-console.log(hero);
-console.log(hero.length);
-console.log(hero[0][2]);
+// //      //array====================
+// // const hero = ["aysh","deepak","ashutosh","abhi"];
+// // console.log(hero);
+// // console.log(hero.length);
+// // console.log(hero[0][2]);
 
-const arr = new Array(1,2,3,4,5,6,7,8);
-console.log(arr);
-console.log(arr.length);
-console.log(arr[3]);
+// // const arr = new Array(1,2,3,4,5,6,7,8);
+// // console.log(arr);
+// // console.log(arr.length);
+// // console.log(arr[3]);
 
 
-//==============array method =========================
+// // //==============array method =========================
 
-const arr1 =[1,2,3,4,5];
-console.log(arr1)
-console.log(arr1.length);
-// array me push
-arr1.push(9);
-console.log(arr1);              //push method use krne pe array ke last me elemetn add hpo jata hai
-console.log(ar1.length);
+// // const arr1 =[1,2,3,4,5];
+// // console.log(arr1)
+// // console.log(arr1.length);
+// // // array me push
+// // arr1.push(9);
+// // console.log(arr1);              //push method use krne pe array ke last me elemetn add hpo jata hai
+// // console.log(arr1.length);
 
-        //pop in array=
+// //         //pop in array=
 
-arr1.pop();
-console.log(arr1);
-console.log(arr1.length);  //pop use krne se last wala element array ka delete ho jata hai
+// // arr1.pop();
+// // console.log(arr1);
+// // console.log(arr1.length);  //pop use krne se last wala element array ka delete ho jata hai
 
-       ////shift and unshift in array ===========================
+//        ////shift and unshift in array ===========================
 
+// const arrs = [1,2,3,45,6,78];
+// console.log(arrs);
+// console.log(arrs.length);
+// arrs.unshift(34,356,12);                  // this method is used to add element in starting 
+// console.log(arrs)
+// console.log(arrs.length);
+
+// arrs.shift();    //used to delete first element from the array
+// console.log(arrs);\
+//     //=========arrs.includes will tell wheter the requried elemetn is in array or nnot if not then returns false 
+// console.log(arrs.includes(3456));  
+// console.log(arrs.includes(356));
+
+// console.log(arrs.indexOf(78));
+
+// const num = [1,2,3,4,5,6,7,8,9];
+
+// const newNum = num.join();
+
+// console.log(num);
+// console.log(newNum);
+
+// console.log(typeof num);      // object type
+// console.log(typeof (newNum));   // string type
