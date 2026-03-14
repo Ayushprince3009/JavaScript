@@ -36,7 +36,7 @@
 // console.log(arrs.length);
 
 // arrs.shift();    //used to delete first element from the array
-// console.log(arrs);\
+// console.log(arrs);
 //     //=========arrs.includes will tell wheter the requried elemetn is in array or nnot if not then returns false 
 // console.log(arrs.includes(3456));  
 // console.log(arrs.includes(356));
@@ -52,3 +52,9 @@
 
 // console.log(typeof num);      // object type
 // console.log(typeof (newNum));   // string type
+
+ //       //========slice and splice=======================================
+
+ //    //============slice================
+
+ 
