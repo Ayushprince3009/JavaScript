@@ -16,5 +16,8 @@
   console.log([1,2,3,4,5].reduce((res,el) => (res+el)));
 
   let num = [1,2,3,4,5,6,7,8,9,10];
-  let result = num.reduce((res, el) => (res + el));
-  console.log(result);
+  let result = num.reduce((res, el) =>
+     {
+        console.log(`acc: ${res} `)
+        (res + el));
+    console.log(result);
