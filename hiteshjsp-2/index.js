@@ -16,3 +16,7 @@ for(number of num){
 const newNum = num.filter((n) => n>4 )
 console.log(newNum);
 
+
+
+
+
