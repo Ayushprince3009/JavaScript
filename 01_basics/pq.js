@@ -17,3 +17,5 @@ let first = "ayush";
 let last = "kumar";
 console.log(first+last);
 console.log(first+" "+last);
+
+//null and undefined
